@@ -246,7 +246,10 @@
 	}
 
 		.image:before {
-			background: url("images/Koben0068.jpg");
+			/*background: url("../images/inside_out/womens_inside_back.jpg") no-repeat;*/
+			/*background-size: 100%, 100%, auto, cover;*/
+
+			/*height: 90%;*/
 			content: '';
 			height: 100%;
 			left: 0;
