@@ -1119,3 +1119,20 @@
         .cboxSlideshow_off #cboxSlideshow{background-position:-100px 0px; right:44px;}
         .cboxSlideshow_off #cboxSlideshow:hover{background-position:-75px -25px;}
 /*******************************END OF COLORBOX CSS*****************************************************/
+
+.youtube a:active {
+	color: none;
+}
+
+.youtube a:link { /* Essentially means a[href], or that the link actually goes somewhere */
+  color: blue;
+}
+.youtube a:visited {
+  color: purple;
+}
+.youtube a:hover {
+  color: green;
+}
+.youtube a:active {
+  color: red;
+}
