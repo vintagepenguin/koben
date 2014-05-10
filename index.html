@@ -20,9 +20,41 @@
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-noscript.css" />
+			<link rel="stylesheet" href="css/colorbox.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+
+		<!--***************** COLORBOX  ***********************-->
+		<!-- {{ 'colorbox.css'       | asset_url | stylesheet_tag }} DONE -->
+		<!-- {{ "jquery-1.11.0.min.js"    | asset_url | script_tag}} -->
+  	<!-- {{ "lightbox.min.js"         | asset_url | script_tag}}  -->
+  	<!-- {{ "jquery.colorbox-min.js"  | asset_url | script_tag}} DONE -->
+  	<!-- {{ "jquery.colorbox.js"      | asset_url | script_tag}} DONE -->
+			<script src="js/jquery.colorbox-min.js"></script>
+			<script src="js/jquery.colorbox.js"></script>
+			<script src="js/init.js"></script>
+			<script src="js/init.js"></script>
+
+
+			  <script>
+			      $(document).ready(function(){
+
+			        //Examples of how to assign the Colorbox event to elements
+			        $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+			        $(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+
+			        
+			      //   //Example of preserving a JavaScript event for inline calls.
+			        $("#click").click(function(){ 
+			          $('#click').css({"background-color":"#FF0000", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+			          return false;
+			        });
+			      });
+			    </script>
+		<!--***************** END COLORBOX  ***********************-->
+
+
 	</head>
 	<body class="index loading">
 
