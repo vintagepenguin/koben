@@ -511,7 +511,7 @@
 		}
 
 		.button.special {
-			background: #83d3c9;
+			background: #868686;
 			border-color: #83d3c9;
 			color: white !important;
 		}
@@ -1126,4 +1126,22 @@
 
 .youtube {
 	text-decoration: none;
+}
+
+.email-address{
+	margin: auto;
+	
+}
+
+.email-address input {
+	background-color: #fff;
+	text-align: center;
+}
+.email-address-button {
+	background: #96dad1;
+	margin: auto;
+}
+
+.underline-with-green span {
+	border-bottom: solid 3px #96dad1 !important;
 }
