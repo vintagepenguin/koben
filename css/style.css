@@ -1145,3 +1145,10 @@
 .underline-with-green span {
 	border-bottom: solid 3px #96dad1 !important;
 }
+
+.round-the-corners {
+		/*border-radius: */
+		/*-moz-border-radius: 10px;*/
+		/*-webkit-border-radius: 10px;*/
+		border-radius: 50px; /* future proofing */
+}
