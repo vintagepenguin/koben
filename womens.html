@@ -40,13 +40,9 @@
 
         <script>
             $(document).ready(function(){
-
-              //Examples of how to assign the Colorbox event to elements
-              $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
-              $(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
-
+              $(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
               
-            //   //Example of preserving a JavaScript event for inline calls.
+                   //   //Example of preserving a JavaScript event for inline calls.
               $("#click").click(function(){ 
                 $('#click').css({"background-color":"#FF0000", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
                 return false;
@@ -97,41 +93,8 @@
       <section id="banner-womens">
         <div class="inner">
           
-<!--           <header>
-            <h2>WOMENS</h2>
-          </header> -->
-<!--           <p>This is <strong>Womens</strong>, a free<br />
-          responsive template<br />
-          by <a href="http://html5up.net">HTML5 UP</a>.</p>
-          <footer>
-            <ul class="buttons vertical">
-              <li><a href="#main" class="button fit scrolly">Tell Me More</a></li>
-            </ul>
-          </footer> -->
-        
-        <!-- </div> -->
 
-
-        <!--
-          ".inner" is set up as an inline-block so it automatically expands
-          in both directions to fit whatever's inside it. This means it won't
-          automatically wrap lines, so be sure to use line breaks where
-          appropriate (<br />).
-        -->
-        <!-- YOUTUBE VIDEO -->
-        <!-- <div class="inner"> -->
-     <!-- YOUTUBE VIDEO -->
           <h2 id='bold-statement'>womens silk lined jeans</h2>
-            <!-- <div class="intro-video"> -->
-<!--               <a class='youtube cboxElement' href="http://www.youtube.com/embed/phJo1E94Yk8/VOJyrQa_WR4?rel=0&amp;wmode=transparent"> -->
-<!--                 <div class="play" alt="Play">
-                </div> -->
-<!--               </a>
-            </div>
- -->        <!-- <h2 id='bold-statement'>womens silk lined jeans</h2> -->
-        <!-- </div> -->
-
-        
       </section>
 
     <!-- Main -->
@@ -139,13 +102,9 @@
 
         <header class="special container">
           <span class="icon fa-bar-chart-o"></span>
-          <!-- <h2><strong>Introducing the World's First Silk Lined Jeans.</strong><br /> -->
-          <!-- <h2><strong>Wanna know when we launch our kickstarter?</strong><br /> -->
           <h2 class='underline-with-green'><strong>Kickstarter? Yup.<br /></strong> Get notified <a href=""><span>the day</span></a> we launch.
           </h2> 
             <br>
-            <!-- <br>  -->
-          <!-- <h3 class='underline-with-green'><span>Wanna know when we launch our kickstarter?</span></h3> -->
         
         <!--*************** EMAIL FORM *********************-->
                 <form>
@@ -170,8 +129,18 @@
         <!--***************************** END SECTION  *********************** -->
         <!--*****************************              *********************** -->
         
+        <header class='special container'>
 
-        
+            <h2>No Transition + fixed width and height (75% of screen size)</h2>
+            <!-- CREATE A FOLDER FOR ALL THE WOMENS PICTURES THEN PUT THEM ALL IN AND START SLIDE SHOW OF PICS -->
+            <!-- make first element non-hidden then make second  -->
+
+            <p><a class="group3 cboxElement" href="images/inside_out/womens_inside_front.jpg" title=''>KOBEN</a></p>
+            <p><a class="group3 cboxElement" href="images/inside_out/mens_inside_front.jpg" title=''>KOBEN</a></p>
+            <p><a class="group3 cboxElement" href="images/inside_out/womens_inside_front.jpg" title=''>KOBEN</a></p>
+        </header>
+
+
 
         <!--***************************** NEXT SECTION *********************** -->
         <!--*****************************              *********************** -->
