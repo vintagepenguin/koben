@@ -1253,12 +1253,14 @@
 
 #main-middle {
 	font-family: 'Montserrat', sans-serif !important;
-	margin-bottom: 10em;
+
+	margin-bottom: 2em;
+	/*padding-bottom: 10em !important;*/
 }
 
-.middle-content {
+/*.middle-content {
 	margin-bottom: 0;
-}
+}*/
   
 
 #mobile-middle {
