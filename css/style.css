@@ -1252,20 +1252,16 @@
 			}
 
 #main-middle {
-	\font-family: 'Montserrat', sans-serif !important;
-	margin-bottom: 3em;
+	font-family: 'Montserrat', sans-serif !important;
+	margin-bottom: 10em;
 }
 
 .middle-content {
 	margin-bottom: 0;
 }
-
-#bold-statement {
-	margin-bottom: 1.5em;
-}
   
 
 #mobile-middle {
-font-size: 1em;
-margin: 5em 0 0 0;
+font-size: 1.5em;
+margin: 0;
 }
