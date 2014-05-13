@@ -64,7 +64,7 @@
 /* Button */
 
 	.button {
-		max-width: 20em;
+		min-width: 10em;
 		width: 100%;
 	}
 
@@ -116,7 +116,8 @@
 	#banner {
 		background-size: 50em, 10em, auto, cover;
 		/*background: url("../images/Koben0068.jpg") no-repeat center center fixed;*/
-		padding-bottom: 100px
+		padding-bottom: 6.25em;
+		background-attachment: scroll, scroll, scroll, scroll;
 		
 	}
 
@@ -188,6 +189,27 @@
 	}
 
 	.scrollee {
+			overflow-x: scroll;
 		  overflow-y: scroll; /* has to be scroll, not auto */
-  -webkit-overflow-scrolling: touch;
+		  -webkit-overflow-scrolling: touch;
 	}
+
+#banner{
+	/*margin: 10em 10em;*/
+	padding-bottom: 0;
+}
+	.play {
+    text-indent: -9999em;
+    background: url(../images/intro-video-play.png) no-repeat;
+    width: 10.188em;
+    height: 10.188em;
+    margin: 0 auto 0 auto;
+    display: block;
+    cursor: pointer;
+  }
+
+  #bold-statement {
+  	margin-top: 3.125em;
+  	font-size: 1em;
+
+  }
