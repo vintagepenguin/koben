@@ -1,4 +1,4 @@
-@charset "UTF-8";
+#@charset "UTF-8";
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
 
@@ -755,7 +755,7 @@
 	@keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }
 
 	#banner {
-		
+
 		background-color: #645862;
 		background: url("../images/Koben0072.jpg") no-repeat center center fixed;
 		/*background-repeat: no-repeat;*/
@@ -764,7 +764,7 @@
 		/*background-attachment: scroll, scroll, scroll, scroll;*/
 		color: white;
 		cursor: default;
-		padding: 6em .5em;
+		padding: 5em .5em;
 		text-align: center;
 	}
 
@@ -1079,7 +1079,7 @@
 .cboxIframe{width:100%; height:100%; display:block; border:0; padding:0; margin:0;}
 #colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
 
-/* 
+/*
     User Style:
     Change the following styles to modify the appearance of Colorbox.  They are
     ordered & tabbed in a way that represents the nesting of the generated HTML.
@@ -1097,7 +1097,7 @@
 
         /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
         #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; text-indent:-9999px; width:20px; height:20px; position:absolute; top:-20px; background:url(images/controls.png) no-repeat 0 0;}
-        
+
         /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
         #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
 
@@ -1121,7 +1121,7 @@
 
 .email-address{
 	margin: auto;
-	
+
 }
 
 .email-address input {
@@ -1256,7 +1256,7 @@
 /*.middle-content {
 	margin-bottom: 0;
 }*/
-  
+
 
 #mobile-middle {
 font-size: 1.5em;
