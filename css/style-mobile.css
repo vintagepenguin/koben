@@ -186,3 +186,8 @@
 		margin-top: 6.25em;
 		font-size:  1em;
 	}
+
+	.scrollee {
+		  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+	}
