@@ -1252,10 +1252,8 @@
 			}
 
 #main-middle {
-	/*font-size: 2.5em;*/
-	font-family: 'Montserrat', sans-serif !important;
-	/*text-transform:lowercase;*/
-	margin-bottom: 0;
+	\font-family: 'Montserrat', sans-serif !important;
+	margin-bottom: 3em;
 }
 
 .middle-content {
@@ -1264,4 +1262,10 @@
 
 #bold-statement {
 	margin-bottom: 1.5em;
+}
+  
+
+#mobile-middle {
+font-size: 1em;
+margin: 5em 0 0 0;
 }

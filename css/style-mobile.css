@@ -116,7 +116,7 @@
 	#banner {
 		background-size: 50em, 10em, auto, cover;
 		/*background: url("../images/Koben0072.jpg") no-repeat center center fixed;*/
-		padding-bottom: 6.25em;
+		padding-bottom: 0;
 		background-attachment: scroll, scroll, scroll, scroll;
 		
 	}
@@ -197,22 +197,27 @@ body#scrollee{
 		  -webkit-overflow-scrolling: touch;
 	}
 
-#banner{
-	/*margin: 10em 10em;
-	padding-bottom: 0;
-}
+
 	.play {
     text-indent: -9999em;
     background: url(../images/intro-video-play.png) no-repeat;
     width: 10.188em;
     height: 10.188em;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 2.4em auto;
     display: block;
     cursor: pointer;
+    
   }
 
-  #bold-statement {
-  	margin-top: 3.125em;
-  	font-size: 1em;
 
-  }
+
+#main-middle {
+	font-size: 1em;
+	font-family: 'Montserrat', sans-serif !important;
+	text-transform:lowercase;
+}  
+
+#mobile-middle {
+font-size: 1em;
+margin: 5em 0 0 0;
+}
