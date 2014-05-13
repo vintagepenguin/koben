@@ -1251,10 +1251,10 @@
 				margin: 2em 0 0 0;
 			}
 
-.main-middle {
-	font-size: 2.5em;
-	font-family: 'Montserrat', sans-serif;
-	text-transform:lowercase;
+#main-middle {
+	/*font-size: 2.5em;*/
+	font-family: 'Montserrat', sans-serif !important;
+	/*text-transform:lowercase;*/
 	margin-bottom: 0;
 }
 

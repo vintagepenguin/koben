@@ -140,6 +140,9 @@
 			}
 
 /* Main */
+body#scrollee{
+ -webkit-overflow-scrolling: touch;
+}
 
 	#main {
 		background-size: 10em;
@@ -188,14 +191,14 @@
 		font-size:  1em;
 	}
 
-	.scrollee {
-			overflow-x: scroll;
-		  overflow-y: scroll; /* has to be scroll, not auto */
+	#scrollee {
+			/*overflow-x: scroll;*/
+		  /*overflow-y: scroll; */
 		  -webkit-overflow-scrolling: touch;
 	}
 
 #banner{
-	/*margin: 10em 10em;*/
+	/*margin: 10em 10em;
 	padding-bottom: 0;
 }
 	.play {
