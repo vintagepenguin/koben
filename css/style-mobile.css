@@ -221,3 +221,7 @@ body#scrollee{
 font-size: 1em;
 margin: 5em 0 0 0;
 }
+
+.underline-with-green-mobile span {
+	border-bottom: solid 3px #96dad1 !important;
+}

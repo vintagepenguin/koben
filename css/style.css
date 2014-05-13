@@ -1253,9 +1253,9 @@
 
 #main-middle {
 	font-family: 'Montserrat', sans-serif !important;
-
-	margin-bottom: 2em;
-	/*padding-bottom: 10em !important;*/
+	font-size: 1.5;
+	
+	padding-bottom: 2em !important;
 }
 
 /*.middle-content {
