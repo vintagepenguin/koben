@@ -128,8 +128,8 @@
       content: '';
       height: 7px;
       opacity: 0.1;
-      position: absolute;
-      top: 1.75em;
+/*      position: absolute;
+*/      top: 1.75em;
       width: 43%;
     }
 
@@ -154,8 +154,8 @@
       cursor: default;
       height: 7em;
       left: 0;
-      position: absolute;
-      text-align: center;
+/*      position: absolute;
+*/      text-align: center;
       top: 1em;
       width: 100%;
     }
@@ -251,8 +251,8 @@
       content: '';
       height: 100%;
       left: 0;
-      position: absolute;
-      top: 0;
+/*      position: absolute;
+*/      top: 0;
       width: 100%;
     /*}*/
 
@@ -607,8 +607,8 @@
 
     #header nav {
       letter-spacing: 0.075em;
-      position: absolute;
-      right: 1.5em;
+/*      position: absolute;
+*/      right: 1.5em;
       text-transform: uppercase;
       top: 0.75em;
     }
@@ -680,8 +680,8 @@
       box-shadow: none;
       color: white;
       padding: 2em 2.5em;
-      position: absolute;
-    }
+/*      position: absolute;
+*/    }
 
       #header.alt nav {
         right: 2.5em;
@@ -715,8 +715,8 @@
         border-right: solid 0.5em transparent;
         content: '';
         left: 0.75em;
-        position: absolute;
-        top: -0.45em;
+/*        position: absolute;
+*/        top: -0.45em;
       }
 
     .dropotron > li {
@@ -765,17 +765,17 @@
       content: '';
       /*height: 100%;*/
       left: 0;
-      position: absolute;
-      top: 0;
+/*      position: absolute;
+*/      top: 0;
       width: 100%;
     /*background-size: 100%, 60%, auto, cover;
     height: 90%;*/
     /*background-attachment: scroll, scroll, scroll, scroll;*/
-    /*color: white;
+    color: white;
     cursor: default;
     position: absolute;
     padding: 6em 0;
-    text-align: center;*/
+    text-align: center;
   }
 
     #banner .inner {
@@ -903,8 +903,8 @@
   #topButton .toggle {
     height: 100%;
     left: 0;
-    position: absolute;
-    text-align: center;
+/*    position: absolute;
+*/    text-align: center;
     top: 0;
     width: 100%;
   }
@@ -925,8 +925,8 @@
       left: 0;
       line-height: 30px;
       opacity: 0.5;
-      position: absolute;
-      top: 0;
+/*      position: absolute;
+*/      top: 0;
       width: 100%;
       z-index: 1;
     }
@@ -938,16 +938,16 @@
       height: 30px;
       left: 50%;
       margin-left: -40px;
-      position: absolute;
-      top: 0;
+/*      position: absolute;
+*/      top: 0;
       width: 80px;
     }
 
   #sideButton .toggle {
     height: 100%;
     left: 0;
-    position: absolute;
-    text-align: center;
+/*    position: absolute;
+*/    text-align: center;
     top: 0;
     width: 100%;
   }
@@ -968,8 +968,8 @@
       left: 10px;
       line-height: 40px;
       opacity: 0.5;
-      position: absolute;
-      top: 11px;
+/*      position: absolute;
+*/      top: 11px;
       width: 60px;
       z-index: 1;
     }
@@ -980,8 +980,8 @@
       content: '';
       height: 40px;
       left: 10px;
-      position: absolute;
-      top: 10px;
+/*      position: absolute;
+*/      top: 10px;
       width: 60px;
     }
 
