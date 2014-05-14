@@ -1,4 +1,4 @@
-#@charset "UTF-8";
+@charset "UTF-8";
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
 
@@ -761,7 +761,7 @@
 		/*background-repeat: no-repeat;*/
 		background-size: 100%, 60%, auto, cover;
 		height: 90%;
-		/*background-attachment: scroll, scroll, scroll, scroll;*/
+		background-attachment: scroll, scroll, scroll, scroll;
 		color: white;
 		cursor: default;
 		padding: 6em 2em;
