@@ -119,16 +119,17 @@
 							<h2 class='underline-with-green'><strong>Kickstarter? Yup.<br /></strong> Get 	notified <a href=""><span>the day</span></a> we launch.
 							</h2> 
 								<footer class='major'>
-										<form class='email-address'>
-
+										<!-- <form class='email-address' action="https://fwdform.herokuapp.com/user/a99db0c3-8567-4c7e-9100-34cce4147291"> -->
+										<form action="http://forms.brace.io/danwjones22@email.com" class="email-address"></form>
 												<!-- NEED TO ADD CUSTOM STUFF TO SEND IT SOMEWHERE -->
 												<!-- <div class="10u email-address"> -->
-													<input type="text" name="email" placeholder="enter your email address" />
-												</div>
-												<br>
-												<br>
+													<input type="email" name="email" placeholder="email address" />
+													<input type="hidden" name="name" value='new user'>
+  												<input type="hidden" name="message" value='business on the outside. party on the inside'>
 												<ul class="buttons email-address">
-													<li><a href="#" class="button">send</a></li>
+													<!-- <li><a href="#" class="button">send</a></li> -->
+													<li> <input class='button' type="submit" value='send'> </li>
+													<!-- <li><a href="#" class="button">send</a></li> -->
 												</ul>
 													
 

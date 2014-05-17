@@ -596,6 +596,7 @@
 		top: 0;
 		width: 100%;
 		z-index: 10000;
+		/*opacity: 0.9;*/
 	}
 
 		#header h1 {
@@ -763,7 +764,7 @@
 		background-attachment: scroll, scroll, scroll, scroll;
 		color: white;
 		cursor: default;
-		padding: 6em 2em;
+		padding: 6em 2em ;
 		text-align: center;
 	}
 
@@ -1266,4 +1267,16 @@ margin: 0;
 	font-family: 'Montserrat', sans-serif !important;
 	font-size: 1.5;
 	padding-bottom: 3em !important;
+}
+
+
+.backer-money-headers h2 {
+	margin: 0;
+	font-size: 6em;
+}
+
+
+.backer-money-headers h3 {
+	margin: 0;
+	font-size: 3em;
 }
