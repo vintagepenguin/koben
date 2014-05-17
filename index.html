@@ -27,11 +27,6 @@
 <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
 		<!--***************** COLORBOX  ***********************-->
-		<!-- {{ 'colorbox.css'       | asset_url | stylesheet_tag }} DONE -->
-		<!-- {{ "jquery-1.11.0.min.js"    | asset_url | script_tag}} -->
-  	<!-- {{ "lightbox.min.js"         | asset_url | script_tag}}  -->
-  	<!-- {{ "jquery.colorbox-min.js"  | asset_url | script_tag}} DONE -->
-  	<!-- {{ "jquery.colorbox.js"      | asset_url | script_tag}} DONE -->
 			<script src="js/jquery.colorbox-min.js"></script>
 			<script src="js/jquery.colorbox.js"></script>
 			<script src="js/init.js"></script>
@@ -40,19 +35,9 @@
 
 			  <script>
 			      $(document).ready(function(){
-
-			        //Examples of how to assign the Colorbox event to elements
-			        $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
-			        $(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
-
-			        
-			      //   //Example of preserving a JavaScript event for inline calls.
-			        $("#click").click(function(){ 
-			          $('#click').css({"background-color":"#FF0000", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
-			          return false;
-			        });
+			        $('.youtube').colorbox({iframe:true, width:"80%", height:"80%"});
 			      });
-			    </script>
+			  </script>
 		<!--***************** END COLORBOX  ***********************-->
 
 
@@ -61,8 +46,8 @@
 
 		<!-- Header -->
 		<!-- random pages -->
-
-			<header id="header" class="alt">
+	 
+			<header id="header" class="alt" >
 
 				<h1 id="logo"><a href="index.html">KøBEN JEANS <span></span></a></h1>
 
@@ -71,19 +56,18 @@
 						<li class="current"><a  href="index.html"></a></li>
 						<!-- ADD THIS ONCE THE CAMPAIGN IS LIVE -->
 						<!-- <li class="current"><a  href="#">KICKS 	TARTER PAGE</a></li> --> 
-						<li class="current"><a  href="#">BACKER REWARDS</a></li>
-						<li class="submenu opener" style="-webkit-user-select: none; cursor: pointer; white-space: nowrap; opacity: 1;">
-							<a href="#">THE JEANS</a>
+						<li class="current underline-with-green" ><a  href="#"><span>BACKER REWARDS</span></a></li>
+						<li class="submenu opener  current underline-with-green" style="-webkit-user-select: none; cursor: pointer; white-space: nowrap; opacity: 1;">
+							<a href="#"><span>THE JEANS</span></a>
 							<ul>
-								<li><a href="">Backer Rewards</a></li>
-								<li><a href="">FOLLOW</a></li>
-								<li><a href="">KICKSTARTER PAGE</a></li>
-								<li><a href=""></a></li>
-										<!-- backer_rewards.html -->
-										<!-- follow_us.html -->
-										<!-- right-sidebar.html -->
-										<!-- contact.html -->
+								<!-- follow_us.html -->
+								<!-- backer_rewards.html -->
+								<li><a href="">mens</a></li>
+								<li><a href="">womens</a></li>
+								<!-- <li><a href="right-sidebar.html">KICKSTARTER PAGE</a></li> -->
+								<!-- <li><a href="contact.html"></a></li> -->
 
+								
 <!-- 								<li class="submenu">
 									<a href="">Submenu</a>
 									<ul>
@@ -106,10 +90,8 @@
 				<!-- YOUTUBE VIDEO -->
 				<div class="inner">
 						<div class="intro-video">
-							<!--   -->
-					    <a class='youtube cbVidLink cboxElement' href="http://www.youtube.com/embed/phJo1E94Yk8/VOJyrQa_WR4?rel=0&amp;wmode=transparent">
+					    <a class='youtube cbVidLink cboxElement' href="https://www.youtube.com/embed/qfFnXaZ5TAg?rel=0&showinfo=0&autoplay=1">
 					      <div class='play'  alt="Play"></div>
-					      
 					    </a>
 						<!-- <h1 id='logo' class='main-middle'>KøBEN jeans.</h1>					 -->
 					  <h2 id='mobile-middle'>Business on the Outside.<br></h2>
@@ -490,7 +472,7 @@
 			<footer id="footer">
 					<h2>follow the silk road</h2>
 				<ul class="icons">
-					<li><h2><a href="http://instagram.com/købenclothing" target="_blank" class="icon fa-2x fa-instagram"><span class="label">Instagram</span></a></h2> </li>
+					<li><h2><a href="http://instagram.com/kobenclothing" target="_blank" class="icon fa-2x fa-instagram"><span class="label">Instagram</span></a></h2> </li>
 					<li><h2><a  href="#"  class="icon fa-2x fa-twitter"><span class="label">Twitter</span></a></h2> </li>
 					
 					<li><h2><a href="https://www.facebook.com/pages/Køben-Clothing/124527466762" target="_blank" class="icon fa-2x fa-facebook"><span class="label">Facebook</span></a></h2> </li>
