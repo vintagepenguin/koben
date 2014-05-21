@@ -1371,6 +1371,129 @@
 				margin: 2em 0 0 0;
 			}
 
+
+
+/*********************************/
+/******************CSS FOR BACKER*****************/
+#banner-backers {
+	    /*background: url("../images/inside_out/backers_inside_back.png") no-repeat  fixed;*/
+      height: 70%;
+      content: '';
+      left: 0;
+      position: relative;
+      top: 0;
+      width: 100%;
+      color: white;
+			cursor: default;
+			padding: 6em 0;
+			text-align: center;
+			margin-bottom: 10px;
+			background-attachment: scroll, scroll, scroll, scroll;
+}
+
+#banner-backers .intro-video {
+	visibility: hidden;
+	margin-bottom: 60px;
+
+}
+
+#banner-backers h2 {
+	margin-top: 30px;
+	letter-spacing: .7em;
+
+}
+
+#top-logo h2 a {
+	border-bottom: dotted 1px;
+	color: #3fb1a3;
+}
+
+
+
+#banner-backers {
+
+		background-color: #645862;
+		background: url("../images/inside_out/womens_inside_back_cropped.jpg") no-repeat center  fixed;
+		/*background-repeat: no-repeat;*/
+		background-size: 100%, 60%, auto, cover;
+		height: 90%;
+		background-attachment: scroll, scroll, scroll, scroll;
+		color: white;
+		cursor: default;
+		padding: 11.25em 2em ;
+		text-align: center;
+	}
+
+
+
+	#banner-backers .inner {
+			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
+			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+			-o-animation: reveal-banner 1s 0.25s ease-in-out;
+			-ms-animation: reveal-banner 1s 0.25s ease-in-out;
+			animation: reveal-banner 1s 0.25s ease-in-out;
+			-moz-animation-fill-mode: forwards;
+			-webkit-animation-fill-mode: forwards;
+			-o-animation-fill-mode: forwards;
+			-ms-animation-fill-mode: forwards;
+			animation-fill-mode: forwards;
+			/*background: rgba(52, 27, 43, 0.5);*/
+			color: white;
+			display: inline-block;
+			opacity: 0;
+			padding: 3em;
+			text-align: center;
+		}
+
+			#banner-backers .inner header {
+				display: inline-block;
+				border-bottom: solid 2px;
+				border-top: solid 2px;
+				margin: 0 0 2em 0;
+				padding: 3px 0 3px 0;
+			}
+
+				#banner-backers .inner header h2 {
+					border-bottom: solid 2px;
+					border-top: solid 2px;
+					font-size: 2.5em;
+					font-weight: 900;
+					letter-spacing: 0.2em;
+					margin: 0;
+					padding-left: 0.05em;
+					position: relative;
+					text-transform: uppercase;
+				}
+
+			#banner-backers .inner p {
+				letter-spacing: 0.1em;
+				margin: 0;
+				text-transform: uppercase;
+			}
+
+				#banner-backers .inner p a {
+					color: inherit;
+					font-weight: 400;
+					text-decoration: none;
+				}
+
+			#banner-backers .inner footer {
+				margin: 2em 0 0 0;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*.middle-content {
 	margin-bottom: 0;
 }*/
