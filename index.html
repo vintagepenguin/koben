@@ -7,9 +7,42 @@
 <html>
 	<head>
 		<title>køben silk-lined jeans</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
+
+<!-- Update your html tag to include the itemscope and itemtype attributes. --> 
+<html itemscope itemtype="http://wwww.koben.co">
+
+<!-- Place this data between the <head> tags of your website --> 
+<title>køben silk-lined jeans</title> 
+<meta name="description" content="Page description. No longer than 155 characters." />
+
+<!-- Schema.org markup for Google+ --> 
+<meta itemprop="name" content="Koben Silk-Lined Jeans "> 
+<meta itemprop="description" content="Business on the outside. Party on the inside."> 
+<meta itemprop="image" content=" http://www.example.com/image.jpg">
+
+<!-- Twitter Card data --> 
+<meta name="twitter:card" content="product"> 
+<meta name="twitter:site" content="@kobenclothing"> 
+<meta name="twitter:title" content="koben silk-lined jeans"> 
+<meta name="twitter:description" content="Businss on the outside. Party on the inside."> 
+<meta name="twitter:creator" content="@author_handle"> 
+<meta name="twitter:image" content=" http://www.example.com/image.html">
+<!-- <meta name="twitter:data1" content="$3">  -->
+<!-- <meta name="twitter:label1" content="Price">  -->
+<!-- <meta name="twitter:data2" content="Black">  -->
+<!-- <meta name="twitter:label2" content="Color"> -->
+
+<!-- Open Graph data --> 
+<meta property="og:title" content="Koben Silk-Lined Jeans" /> 
+<meta property="og:type" content="product" /> 
+<meta property="og:url" content=" http://www.example.com/" />
+<meta property="og:image" content=" http://example.com/image.jpg" />
+<meta property="og:description" content="Business on the Outside. Party on the inside." /> 
+<meta property="og:site_name" content="Koben Silk-Lined Jeans" /> 
+<!-- <meta property="og:price:amount" content="130.00" />  -->
+<!-- <meta property="og:price:currency" content="USD" /> -->
+
+
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.dropotron.min.js"></script>
@@ -38,6 +71,17 @@
 			        $('.youtube').colorbox({iframe:true, width:"80%", height:"80%"});
 			      });
 			  </script>
+				<script>
+					$(document).ready(function(){
+					   var $form = $('form');
+					   $form.submit(function(){
+					      $.post($(this).attr('action'), $(this).serialize(), function(response){
+					            // do something here on success
+					      },'json');
+					      return false;
+					   });
+					});
+				</script>			  
 		<!--***************** END COLORBOX  ***********************-->
 
 
@@ -48,52 +92,32 @@
 		<!-- random pages -->
 	 
 			<header id="header" class="alt" >
-
 				<h1 id="logo"><a href="index.html">KøBEN JEANS <span></span></a></h1>
-
 				<nav id="nav">
 					<ul>
 						<li class="current"><a  href="index.html"></a></li>
-						<!-- ADD THIS ONCE THE CAMPAIGN IS LIVE -->
-						<!-- <li class="current"><a  href="#">KICKS 	TARTER PAGE</a></li> --> 
+						<!--FOR WHEN LIVE <li class="current"><a  href="#">KICKSTARTER PAGE</a></li> --> 
 						<li class="current underline-with-green" ><a  href="#"><span>BACKER REWARDS</span></a></li>
 						<li class="submenu opener  current underline-with-green" style="-webkit-user-select: none; cursor: pointer; white-space: nowrap; opacity: 1;">
 							<a href="#"><span>THE JEANS</span></a>
 							<ul>
-								<!-- follow_us.html -->
-								<!-- backer_rewards.html -->
 								<li><a href="">mens</a></li>
 								<li><a href="">womens</a></li>
-								<!-- <li><a href="right-sidebar.html">KICKSTARTER PAGE</a></li> -->
-								<!-- <li><a href="contact.html"></a></li> -->
-
-								
-<!-- 								<li class="submenu">
-									<a href="">Submenu</a>
-									<ul>
-										<li><a href="#">Dolore Sed</a></li>
-										<li><a href="#">Consequat</a></li>
-										<li><a href="#">Lorem Magna</a></li>
-										<li><a href="#">Sed Magna</a></li>
-										<li><a href="#">Ipsum Nisl</a></li>
-									</ul>
-								</li> -->
 							</ul>
 						</li>
-						<!-- <li><a href="#" class="button special">Sign Up</a></li> -->
 					</ul>
 				</nav>
 			</header>
 
 		<!-- Banner -->
 			<section id="banner">
+
 				<!-- YOUTUBE VIDEO -->
 				<div class="inner">
 						<div class="intro-video">
 					    <a class='youtube cbVidLink cboxElement' href="https://www.youtube.com/embed/qfFnXaZ5TAg?rel=0&showinfo=0&autoplay=1">
 					      <div class='play'  alt="Play"></div>
 					    </a>
-						<!-- <h1 id='logo' class='main-middle'>KøBEN jeans.</h1>					 -->
 					  <h2 id='mobile-middle'>Business on the Outside.<br></h2>
 					  <h2 id='main-middle'> Party on the Inside.</h2>
  					</div>
@@ -101,55 +125,34 @@
 
 			</section>
 
-		<!-- Main -->
+		<!-- EMAIL FORM -->
 			<article id="main">
-
 				<header class="special container">
 					<span class="icon fa-bar-chart-o"></span>
-					<!-- <h2><strong>Introducing the World's First Silk Lined Jeans.</strong><br /> -->
-					<!-- <h2><strong>Wanna know when we launch our kickstarter?</strong><br /> -->
-				
-						<!-- <br>	 -->
-					<!-- <h3 class='underline-with-green'><span>Wanna know when we launch our kickstarter?</span></h3> -->
-				
-				<!--*************** EMAIL FORM *********************-->
 					<section class="wrapper style4 special container small">
-
 						<header>
 							<h2 class='underline-with-green'><strong>Kickstarter? Yup.<br /></strong> Get 	notified <a href=""><span>the day</span></a> we launch.
 							</h2> 
 								<footer class='major'>
-										<form action="https://fwdform.herokuapp.com/user/32f92f5d-a730-4b88-bf3d-df8d76056ce1" method='post' class='email-address'>
-												<!-- <div class="10u email-address"> -->
+										<form action="https://fwdform.herokuapp.com/user/a99db0c3-8567-4c7e-9100-34cce4147291" method='post' class='email-address'>
 													<input type="email" name="email" placeholder="email address" />
 													<input type="hidden" name="name" value='new user'>
   												<input type="hidden" name="message" value='business on the outside. party on the inside'>
 												<ul class="buttons email-address">
-													<!-- <li><a href="#" class="button">send</a></li> -->
 													<li> <input class='button' type="submit" value='send'> </li>
-													<!-- <li><a href="#" class="button">send</a></li> -->
 												</ul>
-													
-
 										</form>
 									</footer>
-						
-
 						</header>
-
 					</section>
-				<!--*************** END EMAIL FORM *********************-->
-
 				</header>
 				<!--***************************** END SECTION  *********************** -->
-				<!--*****************************              *********************** -->
+				
 				
 
 				
 
 				<!--***************************** NEXT SECTION *********************** -->
-				<!--*****************************              *********************** -->
-
 					<section class="wrapper style3 container special">
 						
 						<header class="major">
