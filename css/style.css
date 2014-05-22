@@ -1194,7 +1194,7 @@
 	#banner-womens {
 
 		background-color: #645862;
-		background: url("../images/inside_out/womens_main_2.jpg") no-repeat center  fixed;
+		background: url("../images/womens_page_images/womens_main_2.jpg") no-repeat center  fixed;
 		/*background-repeat: no-repeat;*/
 		background-size: 100%, 60%, auto, cover;
 		height: 90%;
@@ -1303,7 +1303,7 @@
 #banner-mens {
 
 		background-color: #645862;
-		background: url("../images/inside_out/mens_main_boots2.jpg") no-repeat center  fixed;
+		background: url("../images/mens_page_images/mens_main_boots2.jpg") no-repeat center  fixed;
 		/*background-repeat: no-repeat;*/
 		background-size: 100%, 60%, auto, cover;
 		height: 90%;
