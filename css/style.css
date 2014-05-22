@@ -1376,7 +1376,6 @@
 /*********************************/
 /******************CSS FOR BACKER*****************/
 #banner-backers {
-	    /*background: url("../images/inside_out/backers_inside_back.png") no-repeat  fixed;*/
       height: 70%;
       content: '';
       left: 0;
