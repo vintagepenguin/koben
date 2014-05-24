@@ -1,8 +1,3 @@
-/*
-	Parallelism 1.1 by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 /*********************************************************************************/
 /* Basic                                                                         */
@@ -100,11 +95,17 @@
 		min-height: 212px;
 	}
 
-		#header h1
-		{
-			font-size: 2.5em;
-			margin: 0 0 0.5em 0;
-		}
+/*#header #logo h1
+{
+	font-size: 1.5em;
+	margin: 0 0 0.5em 0;
+	border: none;
+	border: 0;
+	font-weight: 900;
+	font-size: 1em;
+	font-style: bold;
+	text-decoration: none;		
+}*/
 		
 		#header p
 		{
@@ -262,3 +263,12 @@
 			{
 				content: "\00d7";
 			}
+
+#header #logo h1 a {
+	border: 0;
+	font-weight: 900;
+	font-size: 23em;
+	font-style: bold;
+	text-decoration: none;
+
+}				
