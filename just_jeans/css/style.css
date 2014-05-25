@@ -170,7 +170,8 @@ body, input, select, textarea {
 	body
 	{
 		position: relative;
-		background: url('../images/bg.jpg');
+		/*background: url('../images/bg.jpg');*/
+		background-color: black;
 		background-size: cover;
 		color: #999;
 		color: rgba(255,255,255,0.6);
@@ -757,4 +758,8 @@ body, input, select, textarea {
 #footer #copyright {
 	color: white;
 	font-size: .7em;
+}
+
+#footer h2 a{
+	text-decoration: none;
 }
